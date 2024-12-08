@@ -1,37 +1,37 @@
-# Derlenmiş kaynak #
-# ##################
-* .com
-* .sınıf
-* .dll
-* .exe
-* .o
-* .Bu yüzden
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
 
-# Paketler #
-# ###########
-# bu dosyaları açıp ham kaynağı işlemek daha iyidir
-# git'in kendi dahili sıkıştırma yöntemleri vardır
-* .7z
-* .dmg
-* .gz
-* .izo
-* .kavanoz
-* .rar
-* .tar
-* .zip
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
 
-# Günlükler ve veritabanları #
-# #####################
-* .kayıt
-* .sql
-* .sqlite
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
 
-# İşletim sistemi tarafından oluşturulan dosyalar #
-# #####################
-.DS_Mağazası
-.DS_Mağazası ?
-._ *
-.Spot Işığı-V100
-.Çöpler
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
 ehthumbs.db
-Başparmaklar.db
+Thumbs.db
